@@ -1,4 +1,4 @@
 dependencies:
   kubernetes:
-    version: 1.22.0
-    previousVersion: 1.21.3
+    version: 1.22.1
+    previousVersion: 1.22.0
