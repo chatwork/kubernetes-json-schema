@@ -34,7 +34,7 @@ jobs:
             mod up --build  --pull-request --base master --branch 'mod-up' --title "generate v{{ .kubernetes.version }}" --skip-on-duplicate-pull-request-title
   merge:
     docker:
-      - image: kinzal/pr:0.2.1
+      - image: kinzal/pr:0.3.1
     steps:
       - run:
           name: Auto merge
