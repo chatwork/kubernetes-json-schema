@@ -21,7 +21,7 @@ jobs:
             git push origin ${CIRCLE_BRANCH}
   mod:
     docker:
-      - image: variantdev/mod:0.25.1
+      - image: variantdev/mod:v0.25.1
     environment:
       - CIRCLECI_WORKSPACE: /root/project
     steps:
