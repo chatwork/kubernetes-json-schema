@@ -39,7 +39,7 @@ jobs:
       - run:
           name: Auto merge
           command: |
-            /usr/local/bin/pr merge cw-ozaki/kubernetes-json-schema --with-statuses --with-checks \
+            /usr/local/bin/pr merge chatwork/kubernetes-json-schema --with-statuses --with-checks \
               -l 'state == `"open"`' \
               -l 'base.ref == `"master"`' \
               -l 'starts_with(head.ref, `"mod-up-"`)' \
